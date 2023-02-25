@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/all_border"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/contactImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="75dp"
+        android:minWidth="75dp"
+        android:src="@drawable/baseline_person_24"
+        >
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:text="Firstname"
+            android:textSize="25sp"
+            android:layout_width="310dp"
+            android:layout_height="37dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:text="LastName"
+            android:textSize="25sp"
+            android:layout_width="310dp"
+            android:layout_height="37dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
